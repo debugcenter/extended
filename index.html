@@ -1,127 +1,107 @@
 <!DOCTYPE html>
-<!-- 
-    Programmed by: Jessica.
-    Link to our server: https://discord.gg/6zY5V8z
-    
-    Server name: Khan Academy Extended Experience.
+<!--
+Programmed by: Jessica.
+Link to our server: https://discord.gg/6zY5V8z
+
+Server name: Khan Academy Extended Experience.
 -->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="shortcut icon" type="image/x-icon" href="/extended/favicon2.ico">
-        <title>KA Discord Server | HTML</title>
-        <style>
-            body {
-                background-color: rgb(222, 222, 222);
-                font-family: sans-serif;
-            }
-            h1 {
-                padding-left: 35px;
-                padding-right: 203px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                background-color: rgb(10, 42, 102);
-                margin-left: -9px;
-                margin-right: 0px;
-                margin-top: -8px;
-                color: white;
-                position: fixed;
-                z-index: 2;
-            }
-            .button-link {
-                position: fixed;
-                background-color: rgb(20, 191, 150);
-                border-radius: 5px;
-                color: black;
-                padding: 11px 19px;
-                margin-left: 510px;
-                text-align: center;
-                font-size: 16px;
-                cursor: pointer;
-                text-decoration: none;
-                font-family: sans-serif;
-                z-index: 2;
-            }
-            .button-link:hover{
-                background-color: rgb(21, 148, 116);
-            }
-            #main-content {
-                position: absolute;
-                top: 70px;
-                z-index: 1;
-            }
-            h3 {
-                background-color: rgb(255, 255, 255);
-                padding-left: 20px;
-                padding-right: 20px;
-                padding-top: 10px;
-                margin: 10px;
-            }
-            .info-box {
-                background-color: rgb(255, 255, 255);
-                text-align: center;
-                padding-left: 10px;
-                padding-right: 10px;
-                padding-bottom: 1px;
-                margin-left: 65px;
-                margin-bottom: 30px;
-                
-            }
-            .notice-box {
-                background-color: rgb(255, 145, 0);
-                text-align: center;
-                padding-left: 10px;
-                padding-right: 10px;
-                margin-left: 65px;
-                margin-bottom: 30px;
-                
-            }
-            #mod {
-                color: #12a807;
-            }
-            #admin {
-                color: rgb(255, 0, 0);
-            }
-            #apps-open {
-                margin-bottom: 20px;
-                margin-top: -10px;
-                color: orange;
-            }
-            h5 {
-                margin: 8px;
-            }
-            h4 {
-                padding-top: 5px;
-                
-            }
-            
-        </style>
-    </head>
-    <body>
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="/extended/favicon2.ico">
+    <title>KA Discord Server | HTML</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: rgb(222, 222, 222);
+            font-family: sans-serif;
+        }
+        h1 {
+            color: white;
+            display: inline;
+            margin:
+        }
+        .button-link {
+            background-color: rgb(20, 191, 150);
+            border-radius: 5px;
+            color: black;
+            position: absolute;
+            top: 7px;
+            right: 10px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            padding: 12px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .button-link:hover{
+            background-color: rgb(21, 148, 116);
+        }
+        .info-box {
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            width: calc(100% - 25px);
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 15px;
+            padding: 1px;
+        }
+        .notice-box {
+            background-color: rgb(255, 145, 0);
+            text-align: center;
+            width: 400px;
+            margin: auto;
+        }
+        #mod {
+            color: #12a807;
+        }
+        #admin {
+            color: rgb(255, 0, 0);
+        }
+        #apps-open {
+            color: orange;
+        }
+        h4 {
+            padding: 4px;
+        }
+        #header-container {
+            background-color: rgb(10, 42, 102);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 35px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header-container">
         <h1><strong>Khan Academy Discord</strong></h1>
         <a class="button-link" href="https://discord.gg/6zY5V8z">Join</a>
-        <div id="main-content">
-            <div class="info-box">
-                <h3>About</h3>
-                <p>The Khan Acedemy Discord server was created so that<br>learners on Khan Academy can chat with each other<br>without the rescrictions of Khan Academy getting in the way.<br>However, you still have to follow rules. Our server offers<br>self assignable roles, a verification system, subscription<br>channels, and more. We even have a custom bot. We have an<br>active and friendly staff team and server logs are open for<br>members to view. Enjoy your stay!</p>
-            </div>
-            
-            <div class="info-box">
-                <h3>What's Discord?</h3>
-                <p>Discord is a proprietary freeware VoIP application and digital<br> distribution platform designed for video gaming<br>communities, that specializes in text, image, video and<br> audio communication between users in a chat channel.<br>You can <a href="https://discordapp.com/download">download the app</a> on your computer or phone<br>or just use the <a href="https://discordapp.com">browser version</a>.You can live chat with<br> anybody on it and create serversfor you and your friends.</p>
-            </div>
-            
-            <div class="info-box">
-                    <h3>Our Staff Team</h3>
-                    <h6 id="apps-open">Applications open</h6>
-                    <h5 id="mod">Ace Flame#3570</h5>
-                    <h5 id="admin">Jessica#2287</h5>
-                </div>
-                
-                <div class="notice-box">
-                    <h4>This server is not owned or run by Khan Academy.</h4>
-                </div>
+    </div>
+    <div id="main-content">
+        <div class="info-box">
+            <h3>About</h3>
+            <p>The Khan Acedemy Discord server was created so that<br>learners on Khan Academy can chat with each other<br>without the rescrictions of Khan Academy getting in the way.<br>However, you still have to follow rules. Our server offers<br>self assignable roles, a verification system, subscription<br>channels, and more. We even have a custom bot. We have an<br>active and friendly staff team and server logs are open for<br>members to view. Enjoy your stay!</p>
         </div>
-        
-    </body>
+
+        <div class="info-box">
+            <h3>What's Discord?</h3>
+            <p>Discord is a proprietary freeware VoIP application and digital<br> distribution platform designed for video gaming<br>communities, that specializes in text, image, video and<br> audio communication between users in a chat channel.<br>You can <a href="https://discordapp.com/download">download the app</a> on your computer or phone<br>or just use the <a href="https://discordapp.com">browser version</a>.You can live chat with<br> anybody on it and create serversfor you and your friends.</p>
+        </div>
+
+        <div class="info-box">
+            <h3>Our Staff Team</h3>
+            <h6 id="apps-open">Applications open</h6>
+            <h5 id="mod">Ace Flame#3570</h5>
+            <h5 id="admin">Jessica#2287</h5>
+        </div>
+
+        <div class="notice-box">
+            <h4>This server is not owned or run by Khan Academy.</h4>
+        </div>
+    </div>
+
+</body>
 </html>
